@@ -3,7 +3,7 @@
 This is a fully functional e-commerce website built using HTML, CSS, and JavaScript. For responsiveness, Bootstrap is used, and Font Awesome provides the icons.
 
 ## Live Demo
-[Visit the live site](https://stately-churros-4926c4.netlify.app/)
+[Visit the live site](https://e-commerce-nextek-cwa.netlify.app/)
 
 ## Features
 - Product listing page (`shop.html`)
