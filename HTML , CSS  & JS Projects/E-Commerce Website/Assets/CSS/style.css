@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+.about a {
+  color: black;
+}
+.about li {
+  padding: 5px 0px;
+}
+.news {
+  margin: 20px 0px;
+}
+.about input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+.about input {
+  width: 50%;
+}
+.about input::placeholder {
+  font-size: 100%;
+}
+/* body
+{
+background-color: #F8F5F5;
+} */
+:root {
+  --background-color: #fbebb5;
+}
+header,
+.hero,
+.arrival,
+thead {
+  background-color: var(--background-color);
+}
+/* Ensure icons are positioned to the right of the hamburger menu */
+.icons-container {
+  position: relative;
+  /* transition: opacity 0.3s ease-in-out; */
+}
+.intro {
+  background-color: #faf4f4;
+}
+/* Hide icons when menu is open */
+.icons-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 991px) {
+  .icons-container {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+}
+.picks img {
+  height: 250px;
+  width: 350px;
+}
+.insta {
+  background-image: url("../Images/Rectangle\ 17.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news button {
+  border: none;
+  outline: none;
+  padding: 0px 0px;
+  border-bottom: 2px solid black;
+}
+.about h4 {
+  color: grey;
+}
+.banner {
+  background-image: url("../Images/Rectangle\ 1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.policy {
+  background-color: #d9bcbc;
+}
+.pad div {
+  padding: 0px 20px;
+}
+@media only screen and (max-width: 625px) {
+  .table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+#thead tr th {
+  background-color: var(--background-color);
+  color: black;
+}
+#stars i {
+  color: #f3d46e;
+}
+#stars {
+  border-right: 1px solid black;
+}
+.btnss {
+  position: relative;
+}
+.btnss::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  top: 26px;
+  left: 0;
+  background-color: #9b8989;
+}
+@media only screen and (max-width: 600px) {
+  .aa h4 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1067px) and (min-width: 990px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+}
