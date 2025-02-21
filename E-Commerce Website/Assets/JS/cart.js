@@ -29,7 +29,7 @@ function renderCartItems(cart, tbody) {
         }" alt="" style="width: 50px; height: 50px" /></td>
         <td>${product.name}</td>
         <td>${product.price}</td>
-        <td><input type="number" id="numbersss" class="numb w-50 text-center m-auto" value="${
+        <td><input type="number" id="numbersss" class="numb w-75 text-center m-auto" value="${
           item.quantity
         }" min="1" max="100"\"/></td>
         <td class="fw-bold"><span class="totalsss">${Math.floor(
