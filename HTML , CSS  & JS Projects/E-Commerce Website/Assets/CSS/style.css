@@ -15,12 +15,14 @@
 .news {
   margin: 20px 0px;
 }
+
 .about input {
   border: none;
   outline: none;
   background-color: transparent;
   border-bottom: 2px solid black;
 }
+
 .about input {
   width: 50%;
 }
