@@ -1,0 +1,77 @@
+.BackBtn {
+  color: #04c5a2;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 45px 91px;
+  cursor: pointer;
+}
+.detail_container {
+  width: 35vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  margin: 0px auto;
+  height: auto;
+}
+.pokemon_detail {
+  margin: 50px 0px;
+  padding: 0px 0px;
+  width: 100%;
+  background-color: #fdc666;
+  & .img {
+    width: 100%;
+    height: 280px;
+    background-color: #5fe2c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    object-fit: contain;
+
+    & img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+    }
+  }
+}
+.details {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.more_Detail {
+  padding: 30px 0px;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+
+  & a {
+    text-decoration: none;
+    color: #41768f;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .detail_container {
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .detail_container {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .detail_container {
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .detail_container {
+    width: 90vw;
+  }
+}

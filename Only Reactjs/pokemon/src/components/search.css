@@ -1,0 +1,103 @@
+.search_container {
+  margin: 30px 0px;
+  width: 50vw;
+  position: relative;
+}
+
+.icon {
+  font-size: 20px;
+  padding: 0px 0px 0px 17px;
+}
+.suggestions {
+  position: absolute;
+  background-color: white;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 200px;
+  overflow-y: scroll;
+  & div {
+    border-bottom: 1px solid rgb(139, 130, 130);
+    width: 100%;
+    padding: 10px 10px;
+    &:hover {
+      color: white;
+      background-color: #004368;
+      cursor: pointer;
+    }
+  }
+}
+.SearchBox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+
+  & .left {
+    width: 85%;
+    gap: 20px;
+  }
+  & input {
+    width: 90%;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  & button {
+    width: 15%;
+    cursor: pointer;
+    color: white;
+    background-color: #004368;
+    border: none;
+    outline: none;
+    padding: 13px 0px;
+    font-size: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
+.search_container {
+  margin-left: 2%;
+  border-radius: 1px;
+}
+
+@media only screen and (max-width: 1344px) {
+  .SearchBox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+    & .left {
+      width: 85%;
+      gap: 20px;
+    }
+    & input {
+      width: 80%;
+    }
+    & button {
+    }
+  }
+  .search_container {
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .search_container {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .search_container {
+    width: 80vw;
+  }
+  .left input {
+    width: 70%;
+  }
+}
